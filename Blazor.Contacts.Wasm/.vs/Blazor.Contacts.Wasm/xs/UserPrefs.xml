@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{6D1177DC-F5B0-432A-A10A-E84A26D18F1D}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Blazor.Contacts.Wasm.Client FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Blazor.Contacts.Wasm.Server FirstBuild="True" PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Blazor.Contacts..Wasm.Repositories/Class1.cs">
+    <Files>
+      <File FileName="Blazor.Contacts.Wasm/Client/Pages/FetchData.razor" Line="45" Column="61" />
+      <File FileName="Blazor.Contacts.Wasm/Shared/Contact.cs" Line="10" Column="1" />
+      <File FileName="Blazor.Contacts..Wasm.Repositories/Class1.cs" Line="5" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Blazor.Contacts.Wasm" expanded="True">
+            <Node name="Blazor.Contacts..Wasm.Repositories" selected="True" />
+            <Node name="Blazor.Contacts.Wasm.Shared" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Blazor.Contacts.Wasm.Shared FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Blazor.Contacts..Wasm.Repositories FirstBuild="True" />
+</Properties>

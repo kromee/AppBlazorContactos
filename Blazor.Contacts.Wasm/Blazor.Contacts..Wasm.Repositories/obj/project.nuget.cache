@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cluC0LtFmKDfNVgrdO5oVskqwEgZRipsTZpNdN+tIBjzeNAUoxbL/VOAspu/5fqtHydwB12RoOwTsGCMy+O7cA==",
+  "success": true,
+  "projectFilePath": "/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts..Wasm.Repositories/Blazor.Contacts..Wasm.Repositories.csproj",
+  "expectedPackageFiles": [
+    "/Users/eduardodominguez/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "/Users/eduardodominguez/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}
