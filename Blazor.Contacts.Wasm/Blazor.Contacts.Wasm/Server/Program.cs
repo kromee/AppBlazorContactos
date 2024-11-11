@@ -1,13 +1,25 @@
-﻿using Blazor.Contacts.Wasm.Repositories;
+﻿using System.Data;
+using System.Data.SqlClient;
+using Blazor.Contacts.Wasm.Repositories;
 using Microsoft.AspNetCore.ResponseCompression;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+
+
+// Configurar el servicio de base de datos con la cadena de conexión
+string connectionString = builder.Configuration.GetConnectionString("ConectionSQL");
+builder.Services.AddSingleton<IDbConnection>(sp => new SqlConnection(connectionString));
+
+
 builder.Services.AddScoped<IContactRepository, ContactResitory>();
+
 
 
 var app = builder.Build();
