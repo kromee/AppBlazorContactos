@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Blazor.Contacts.Wasm.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29441ec6fd622b7ae907b26e5ba68c942e5a2994")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67a27263aac0e9edf8cc7d7445f19795d113fc6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Blazor.Contacts.Wasm.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Blazor.Contacts.Wasm.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
