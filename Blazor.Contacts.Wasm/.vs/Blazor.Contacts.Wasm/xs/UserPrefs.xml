@@ -1,30 +1,38 @@
 ﻿<Properties StartupConfiguration="{6D1177DC-F5B0-432A-A10A-E84A26D18F1D}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Blazor.Contacts.Wasm.Client FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Blazor.Contacts.Wasm.Server FirstBuild="True" PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Blazor.Contacts..Wasm.Repositories/ContactResitory.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Blazor.Contacts.Wasm/Client/Pages/ContactDelete.razor">
     <Files>
-      <File FileName="Blazor.Contacts..Wasm.Repositories/ContactResitory.cs" Line="34" Column="42" />
+      <File FileName="Blazor.Contacts.Wasm/Client/Pages/ContactDelete.razor" Line="66" Column="64" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Blazor.Contacts.Wasm" expanded="True">
-            <Node name="Blazor.Contacts..Wasm.Repositories" selected="True">
+            <Node name="Blazor.Contacts.Wasm.Client">
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
+              <Node name="Pages" expanded="True">
+                <Node name="ContactDelete.razor" selected="True" />
+              </Node>
             </Node>
+            <Node name="Blazor.Contacts.Wasm.Server">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="Blazor.Contacts.Wasm.Shared" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Blazor.Contacts.Wasm.Shared FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Blazor.Contacts.Wasm.Server PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Client/Pages/ContactDetails.razor" relfile="Blazor.Contacts.Wasm/Client/Pages/ContactDetails.razor" line="47" column="1" />
+      <Breakpoint file="/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Client/Services/ContactService.cs" relfile="Blazor.Contacts.Wasm/Client/Services/ContactService.cs" line="25" column="1" />
+      <Breakpoint file="/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Client/Services/ContactService.cs" relfile="Blazor.Contacts.Wasm/Client/Services/ContactService.cs" line="33" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Blazor.Contacts..Wasm.Repositories FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

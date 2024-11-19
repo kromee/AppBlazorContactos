@@ -16,46 +16,67 @@ namespace Blazor.Contacts.Wasm.Repositories
 
         public  async Task DeleteContact(int Id)
         {
-            var slqDelete = @"delete from  Contacts " +
+            try {
+                var slqDelete = @"delete from  Contact " +
                                " where id=@Id ";
             var result = await _dbConnection.ExecuteAsync(slqDelete, new { id = Id });
+            } catch (Exception ex) {
+                string sER = ex.Message;
+            }
+          
         }
 
         public async Task<IEnumerable<Contact>> GetAll()
         {
-            var slqSelectall = @"Select id, nombre, apellidos, , Direccion, Municipio, Ciudad, Pais, Telefono1, Telefono2, Email " +
-                                  " from Contacts ";
-                                
-            var contact = await _dbConnection.QueryAsync<Contact>(slqSelectall, new { });
+            var slqSelectall = @"Select id, nombre, apellidos,Direccion, Municipio, Ciudad, Pais, Telefono1, Telefono2, Email " +
+                                  " from Contact ";
 
-            if (contact == null)
-            {
+            try {
+                var contact = await _dbConnection.QueryAsync<Contact>(slqSelectall, new { });
+
+                if (contact == null)
+                {
                 
-                throw new Exception("Contacto no encontrado");
+                    throw new Exception("Contacto no encontrado");
+                }
+                return contact;
+            } catch (Exception ex) {
+                throw new Exception(ex.Message);
             }
-            return contact;
+
+              
+            
+           
+            
         }
 
         public async Task<Contact> GetDatails(int IdContacto)
         {
-            var slqSelectId = @"Select id, nombre, apellidos, , Direccion, Municipio, Ciudad, Pais, Telefono1, Telefono2, Email " +
-                                " from Contacts " +
+            var slqSelectId = @"Select id, nombre, apellidos, Direccion, Municipio, Ciudad, Pais, Telefono1, Telefono2, Email " +
+                                " from Contact " +
                                 " where id=@Id";
-            var contact = await _dbConnection.QueryFirstOrDefaultAsync<Contact>(slqSelectId, new { Id = IdContacto });
 
-            if (contact == null)
+            try
             {
-                // Manejar el caso en que el contacto no fue encontrado (ejemplo: lanzar una excepción, devolver un valor por defecto, etc.)
-                throw new Exception("Contacto no encontrado");
+                var contact = await _dbConnection.QueryFirstOrDefaultAsync<Contact>(slqSelectId, new { Id = IdContacto });
+
+                if (contact == null)
+                {
+                    // Manejar el caso en que el contacto no fue encontrado (ejemplo: lanzar una excepción, devolver un valor por defecto, etc.)
+                    throw new Exception("Contacto no encontrado");
+                }
+                return contact;
             }
-            return contact;
+            catch (Exception ex) {
+                throw new Exception(ex.Message);
+            }
 
 
         }
 
         public async Task<bool> InsertContact(Contact contacto)
         {
-            var sqlInsert = @"insert into Contactos (Nombre, Apellidos, Direccion, Municipio, Ciudad, Pais, Telefono1, Telefono2, Email)" +
+            var sqlInsert = @"insert into Contact (Nombre, Apellidos, Direccion, Municipio, Ciudad, Pais, Telefono1, Telefono2, Email)" +
                                  "Values (@Nombre, @Apellidos, @Direccion, @Municipio,@Ciudad, @Pais, @Telefono1, @Telefono2, @Email)";
 
             var result = await _dbConnection.ExecuteAsync(sqlInsert, new
@@ -79,25 +100,31 @@ namespace Blazor.Contacts.Wasm.Repositories
 
         public async Task<bool> UpdateContact(Contact contacto)
         {
-            var sqlUpdate = @"Update Contactos Nombre=@Nombre, Apellidos=@Apellidos, Direccion=@Direccion, Municipio=@Municipio, Ciudad=@Ciudad, Pais=@Pais, Telefono1=@Telefono1, Telefono2=@Telefono2, Email=@Email)" +
+            var sqlUpdate = @"Update Contact set Nombre=@Nombre, Apellidos=@Apellidos, Direccion=@Direccion, Municipio=@Municipio, Ciudad=@Ciudad, Pais=@Pais, Telefono1=@Telefono1, Telefono2=@Telefono2, Email=@Email" +
                                "  where Id=@Id";
 
-            var result = await _dbConnection.ExecuteAsync(sqlUpdate, new
+            try {
+          var result = await _dbConnection.ExecuteAsync(sqlUpdate, new
+                    {
+                        contacto.nombre,
+                        contacto.apellidos,
+                        contacto.direccion,
+                        contacto.municipio,
+                        contacto.ciudad,
+                        contacto.pais,
+                        contacto.telefono1,
+                        contacto.telefono2,
+                        contacto.email,
+                        contacto.ID
+
+                    });
+
+                    return result > 0;
+            } catch (Exception ex)
             {
-                contacto.nombre,
-                contacto.apellidos,
-                contacto.direccion,
-                contacto.municipio,
-                contacto.ciudad,
-                contacto.pais,
-                contacto.telefono1,
-                contacto.telefono2,
-                contacto.email,
-                contacto.ID
-
-            });
-
-            return result > 0;
+                   throw new Exception(ex.Message);
+            }
+          
         }
     }
 }

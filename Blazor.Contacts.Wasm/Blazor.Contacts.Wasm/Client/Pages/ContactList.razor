@@ -1,0 +1,73 @@
+﻿@page "/"
+
+
+@inject IContactService ContactService
+@inject NavigationManager navigationManager
+
+
+<h3>Contacts</h3>
+@Mensaje
+<table class="table">
+    <tbody>
+        <tr>
+            <td colspan="2">
+                <div style="display: flex; justify-content: flex-end;">
+                    <RadzenButton Text="Agregar nuevo" ButtonStyle="ButtonStyle.Primary" Click="@(arg => NavegationContactDetails())"></RadzenButton>
+                </div>
+                    
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+@if (contacts == null) {
+    <p><em>Cargando..</em></p>
+}
+else
+{
+<RadzenGrid AllowFiltering="true" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" FilterMode="FilterMode.Advanced" AllowPaging="true" PageSize="4"
+            AllowSorting="true" Data="@contacts" TItem="Contact" ColumnWidth="200px">
+    <Columns>
+        <RadzenGridColumn TItem="Contact" Property="nombre" Title="Nombre" />
+        <RadzenGridColumn TItem="Contact" Property="apellidos" Title="Apellidos" />
+        <RadzenGridColumn TItem="Contact" Property="direccion" Title="Dirección" />
+        <RadzenGridColumn TItem="Contact" Title="Editar">
+            <Template Context="data">
+                <RadzenLink Path="@($"/contactdetails/{data.ID}")" Text="Editar"></RadzenLink>
+            </Template>
+        </RadzenGridColumn>
+        <RadzenGridColumn TItem="Contact" Title="Eliminar">
+            <Template Context="data">
+                <RadzenLink Path="@($"/contactdelete/{data.ID}")" Text="Eliminar"></RadzenLink>
+            </Template>
+        </RadzenGridColumn>
+
+    </Columns>
+</RadzenGrid>
+
+
+}
+
+
+
+@code {
+
+    IEnumerable<Contact>? contacts;
+    public string? Mensaje { get; set; }
+
+    protected async override Task OnInitializedAsync()
+    {
+        try {
+            contacts = await ContactService.GetAll();
+
+        } catch (Exception ex) {
+            Mensaje = ex.Message;
+        }
+    }
+
+    private void NavegationContactDetails() {
+        navigationManager.NavigateTo("/contactdetails");
+    }
+
+}
+

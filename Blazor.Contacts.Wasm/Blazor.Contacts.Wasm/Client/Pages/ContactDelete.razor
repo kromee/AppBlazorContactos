@@ -1,0 +1,115 @@
+﻿
+@page "/contactdelete/{id:int}"
+
+@using Services
+@using Blazor.Contacts.Wasm.Shared
+
+@inject IContactService ContactService
+@inject NavigationManager navigationManager
+
+
+@if (contact == null)
+{
+    <p><em>Cargando..</em></p>
+}
+else
+{
+<RadzenTemplateForm Data="@contact">
+    <div class="card">
+
+        <div class="card-body">
+            <div class="container">
+                <RadzenFieldset Text="Contacto detalles">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="">Nombre:</label>
+                            <RadzenTextBox class="form-control" @bind-Value="@contact.nombre"></RadzenTextBox>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="">Apellidos:</label>
+                            <RadzenTextBox class="form-control" @bind-Value="@contact.apellidos"></RadzenTextBox>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 mb-3">
+                            <label for="">Dirección:</label>
+                            <RadzenTextArea class="form-control" @bind-Value="@contact.direccion"></RadzenTextArea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label for="">Municipio:</label>
+                            <RadzenTextBox class="form-control" @bind-Value="@contact.municipio"></RadzenTextBox>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="">Ciudad:</label>
+                            <RadzenTextBox class="form-control" @bind-Value="@contact.ciudad"></RadzenTextBox>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="">País:</label>
+                            <RadzenTextBox class="form-control" @bind-Value="@contact.pais"></RadzenTextBox>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="">Teléfono 1:</label>
+                            <RadzenTextBox class="form-control" @bind-Value="@contact.telefono1"></RadzenTextBox>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="">Teléfono 2:</label>
+                            <RadzenTextBox class="form-control" @bind-Value="@contact.telefono2"></RadzenTextBox>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 mb-3">
+                            <label for="">Correo electrónico:</label>
+                            <RadzenTextBox class="form-control" @bind-Value="@contact.email"></RadzenTextBox>
+                            
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <RadzenButton Text="Eliminar" ButtonStyle="ButtonStyle.Danger" Click="@(args => this.Delete())" />
+                            <RadzenButton Text="Cancelar" ButtonStyle="ButtonStyle.Secondary" Click="@(args => this.NavigateHome())" />
+                        </div>
+                        <div class="col-md-4 mb-3">
+
+                        </div>
+                    </div>
+                </RadzenFieldset>
+            </div>
+        </div>
+    </div>
+</RadzenTemplateForm>
+}
+
+
+
+
+@code {
+    public Contact? contact;
+
+    [Parameter]
+    public int id { get; set; }
+
+    protected async override Task OnInitializedAsync()
+    {
+       contact = await ContactService.GetDetails(id);
+
+    }
+
+    protected async Task Delete()
+    {
+        await ContactService.DeleteContact(id);
+        NavigateHome();
+    }
+    private void NavigateHome()
+    {
+        navigationManager.NavigateTo("/");
+    }
+}
+

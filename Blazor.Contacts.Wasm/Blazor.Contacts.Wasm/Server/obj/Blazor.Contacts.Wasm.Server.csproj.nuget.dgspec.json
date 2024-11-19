@@ -36,6 +36,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -61,11 +66,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
+              "version": "[6.0.30, 6.0.30]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
+              "version": "[6.0.30, 6.0.30]"
             }
           ],
           "frameworkReferences": {
@@ -73,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100-preview.5.24307.3/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -109,6 +114,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -123,6 +133,28 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.33, )"
+            },
+            "Microsoft.NET.ILLink.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.100-1.23211.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.100-1.23211.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NET.Sdk.WebAssembly.Pack": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0-preview.5.24306.7, )",
+              "autoReferenced": true
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[3.5.2, )"
             }
           },
           "imports": [
@@ -139,11 +171,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
+              "version": "[6.0.30, 6.0.30]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
+              "version": "[6.0.30, 6.0.30]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
@@ -155,7 +187,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100-preview.5.24307.3/RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -180,7 +212,6 @@
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.317/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -203,6 +234,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -232,15 +268,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
+              "version": "[6.0.30, 6.0.30]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[6.0.31, 6.0.31]"
+              "version": "[6.0.30, 6.0.30]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
+              "version": "[6.0.30, 6.0.30]"
             }
           ],
           "frameworkReferences": {
@@ -251,7 +287,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100-preview.5.24307.3/RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -283,6 +319,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -302,11 +343,11 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
+              "version": "[6.0.30, 6.0.30]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
+              "version": "[6.0.30, 6.0.30]"
             }
           ],
           "frameworkReferences": {
@@ -314,7 +355,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.317/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100-preview.5.24307.3/RuntimeIdentifierGraph.json"
         }
       }
     }

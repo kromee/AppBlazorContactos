@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kGBvcI3s1g7+U76iVfTMS2lo8rqqt2M4a0/mD5szMryQ9rT1aRmRGrSg7AbcqnkR/b6cnAoixz2N/QhhDWCq0Q==",
+  "dgSpecHash": "L7bnKSDqOsk=",
   "success": true,
   "projectFilePath": "/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Server/Blazor.Contacts.Wasm.Server.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "/Users/eduardodominguez/.nuget/packages/microsoft.aspnetcore.components.webassembly/6.0.33/microsoft.aspnetcore.components.webassembly.6.0.33.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/microsoft.aspnetcore.components.webassembly.server/6.0.33/microsoft.aspnetcore.components.webassembly.server.6.0.33.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/microsoft.aspnetcore.metadata/6.0.33/microsoft.aspnetcore.metadata.6.0.33.nupkg.sha512",
+    "/Users/eduardodominguez/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/microsoft.extensions.configuration/6.0.0/microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/microsoft.extensions.configuration.binder/6.0.0/microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
@@ -31,6 +32,7 @@
     "/Users/eduardodominguez/.nuget/packages/microsoft.jsinterop.webassembly/6.0.33/microsoft.jsinterop.webassembly.6.0.33.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "/Users/eduardodominguez/.nuget/packages/radzen.blazor/3.5.2/radzen.blazor.3.5.2.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -38,14 +40,15 @@
     "/Users/eduardodominguez/.nuget/packages/system.data.sqlclient/4.8.6/system.data.sqlclient.4.8.6.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/system.io.pipelines/6.0.3/system.io.pipelines.6.0.3.nupkg.sha512",
+    "/Users/eduardodominguez/.nuget/packages/system.linq.dynamic.core/1.2.2/system.linq.dynamic.core.1.2.2.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
     "/Users/eduardodominguez/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512",
-    "/Users/eduardodominguez/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.31/microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
-    "/Users/eduardodominguez/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.31/microsoft.netcore.app.host.osx-arm64.6.0.31.nupkg.sha512",
-    "/Users/eduardodominguez/.nuget/packages/microsoft.netcore.app.ref/6.0.31/microsoft.netcore.app.ref.6.0.31.nupkg.sha512"
+    "/Users/eduardodominguez/.nuget/packages/microsoft.netcore.app.ref/6.0.30/microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "/Users/eduardodominguez/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.30/microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512",
+    "/Users/eduardodominguez/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.30/microsoft.netcore.app.host.osx-arm64.6.0.30.nupkg.sha512"
   ],
   "logs": []
 }

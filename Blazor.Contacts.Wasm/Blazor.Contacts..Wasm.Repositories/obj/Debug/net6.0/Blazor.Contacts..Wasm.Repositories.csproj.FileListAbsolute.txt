@@ -1,0 +1,15 @@
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts..Wasm.Repositories/bin/Debug/net6.0/Blazor.Contacts..Wasm.Repositories.deps.json
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts..Wasm.Repositories/bin/Debug/net6.0/Blazor.Contacts..Wasm.Repositories.dll
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts..Wasm.Repositories/bin/Debug/net6.0/Blazor.Contacts..Wasm.Repositories.pdb
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts..Wasm.Repositories/bin/Debug/net6.0/Blazor.Contacts.Wasm.Shared.dll
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts..Wasm.Repositories/bin/Debug/net6.0/Blazor.Contacts.Wasm.Shared.pdb
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts..Wasm.Repositories/obj/Debug/net6.0/Blazor.Contacts..Wasm.Repositories.csproj.AssemblyReference.cache
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts..Wasm.Repositories/obj/Debug/net6.0/Blazor.Contacts..Wasm.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts..Wasm.Repositories/obj/Debug/net6.0/Blazor.Contacts..Wasm.Repositories.AssemblyInfoInputs.cache
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts..Wasm.Repositories/obj/Debug/net6.0/Blazor.Contacts..Wasm.Repositories.AssemblyInfo.cs
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts..Wasm.Repositories/obj/Debug/net6.0/Blazor.Contacts..Wasm.Repositories.csproj.CoreCompileInputs.cache
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts..Wasm.Repositories/obj/Debug/net6.0/Blazor.Contacts..Wasm.Repositories.csproj.CopyComplete
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts..Wasm.Repositories/obj/Debug/net6.0/Blazor.Contacts..Wasm.Repositories.dll
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts..Wasm.Repositories/obj/Debug/net6.0/refint/Blazor.Contacts..Wasm.Repositories.dll
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts..Wasm.Repositories/obj/Debug/net6.0/Blazor.Contacts..Wasm.Repositories.pdb
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts..Wasm.Repositories/obj/Debug/net6.0/ref/Blazor.Contacts..Wasm.Repositories.dll

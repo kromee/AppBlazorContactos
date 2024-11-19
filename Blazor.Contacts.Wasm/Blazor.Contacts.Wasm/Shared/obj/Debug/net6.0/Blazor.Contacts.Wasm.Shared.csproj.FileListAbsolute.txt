@@ -1,0 +1,12 @@
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Shared/bin/Debug/net6.0/Blazor.Contacts.Wasm.Shared.deps.json
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Shared/bin/Debug/net6.0/Blazor.Contacts.Wasm.Shared.dll
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Shared/bin/Debug/net6.0/Blazor.Contacts.Wasm.Shared.pdb
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Shared/obj/Debug/net6.0/Blazor.Contacts.Wasm.Shared.csproj.AssemblyReference.cache
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Shared/obj/Debug/net6.0/Blazor.Contacts.Wasm.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Shared/obj/Debug/net6.0/Blazor.Contacts.Wasm.Shared.AssemblyInfoInputs.cache
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Shared/obj/Debug/net6.0/Blazor.Contacts.Wasm.Shared.AssemblyInfo.cs
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Shared/obj/Debug/net6.0/Blazor.Contacts.Wasm.Shared.csproj.CoreCompileInputs.cache
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Shared/obj/Debug/net6.0/Blazor.Contacts.Wasm.Shared.dll
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Shared/obj/Debug/net6.0/refint/Blazor.Contacts.Wasm.Shared.dll
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Shared/obj/Debug/net6.0/Blazor.Contacts.Wasm.Shared.pdb
+/Users/eduardodominguez/Desktop/Cursos/08-Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Blazor.Contacts.Wasm/Shared/obj/Debug/net6.0/ref/Blazor.Contacts.Wasm.Shared.dll
